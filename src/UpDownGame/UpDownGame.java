@@ -33,7 +33,7 @@ public class UpDownGame extends JFrame{//1개임
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		icon = new ImageIcon("src/UpDownGame/bonobono/unknown.png");
+		icon = new ImageIcon(UpDownGame.class.getResource("/UpDownGame/bonobono/unknown.png"));
 		mainImage = new JLabel(icon);//-------------------------- 이미지
 		
 		random = new Random();
