@@ -61,8 +61,8 @@ public class GameMenu extends JFrame{
         JButton btnHumanQuiz = new JButton("인물 퀴즈");
         JButton btnOMoc = new JButton("오목");
         
-        ImageIcon icon1 = new ImageIcon("src/gameMenu/nintendo/swL.png");
-        ImageIcon icon2 = new ImageIcon("src/gameMenu/nintendo/swR.png");
+        ImageIcon icon1 = new ImageIcon(GameMenu.class.getResource("/gameMenu/nintendo/swL.png"));
+        ImageIcon icon2 = new ImageIcon(GameMenu.class.getResource("/gameMenu/nintendo/swR.png"));
         
         JLabel image1 = new JLabel(icon1);
         JLabel image2 = new JLabel(icon2);
