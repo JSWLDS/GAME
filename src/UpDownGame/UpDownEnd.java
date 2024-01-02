@@ -32,7 +32,7 @@ public class UpDownEnd extends JFrame{
 			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			
 			
-			icon = new ImageIcon("src/UpDownGame/bonobono/unknown.png");
+			icon = new ImageIcon(UpDownEnd.class.getResource("/UpDownGame/bonobono/unknown.png"));
 			mainImage = new JLabel(icon);//-------------------------- 이미지
 			
 			JPanel jpL1 = new JPanel(new BorderLayout());
